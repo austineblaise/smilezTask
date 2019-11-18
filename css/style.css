@@ -1,0 +1,352 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+nav{
+    max-width: 100%;
+    height: 7vh;
+    /* background-color: grey; */
+    box-shadow: 0px 0px 4px 0px grey;
+
+
+
+}
+
+
+nav img{
+    max-width: 40vw;
+    height: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+ 
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 3%;
+    margin-top: 1.5%;
+}
+
+.navContainer{
+
+    max-width: 50%;
+    height: 7vh;
+    
+    margin:  auto;
+    text-align: center;
+
+}
+
+
+/* .container{
+    max-width: 80%;
+    height: 20vh;
+    background-color: red;
+    margin: 0 auto;
+    display: flex;
+} */
+
+.cont{
+    max-width: 20%;
+    height: 5vh;
+    /* background-color: blue; */
+    
+    
+
+
+}
+.contt{
+    max-width: 20%;
+    height: 5vh;
+    /* background-color: yellow; */
+    float: right;
+
+
+}
+
+
+
+.vv{
+    height: 5vh;
+    width: 30%;
+    /* background-color: red; */
+    float: right;
+    margin-right: 10%;
+    margin-top: 30px;
+    /* background-image: url("../images/boy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.vvv{
+    height: 70px;
+    width: 40%;
+    /* background-color: blue; */
+    position: relative;
+    top: 90px;
+    left: 10%;
+}
+
+.vv img{
+    height: auto;
+    width: 80%;
+}
+
+.flexx{
+    max-width: 100%;
+    height: 60vh;
+    /* background-color: blueviolet; */
+    margin-top: 2px;
+}
+
+.lastH{
+    max-width: 100%;
+    text-align: center;
+    /* background-color: pink; */
+}
+
+
+.layer1{
+    height: 5vh;
+    width: 30%;
+    /* background-color: red; */
+    
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+
+.layer2{
+    height: 115px;
+    width: 40%;
+    /* background-color: blue; */
+    position: relative;
+    top: 50px;
+    right: 10%;
+    float: right;
+
+}
+
+.layer2 h5{
+    margin-bottom: 5px;
+}
+
+
+.layer1 img{
+    height: auto;
+    width: 80%;
+}
+
+.layer{
+    max-width: 100%;
+    height: 60vh;
+    /* background-color: rgb(226, 214, 43); */
+}
+
+.listDiv{
+    max-width: 100%;
+    height: 5vh;
+    background-color: lightgrey;
+}
+.listDiv ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1.5vh;
+    margin-left: 50px;
+    color: black;
+}
+.listDiv ul li a {
+    text-decoration: none;
+    color: black;
+}
+.listDiv ul{
+   
+    text-align: center;
+}
+
+.cards{
+    max-width: 100%;
+    height: 50vh;
+    /* background-color: rgb(199, 228, 218); */
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.card{
+    width: 20%;
+    height: 170px;
+    /* background-color: greenyellow; */
+    margin-left: 10px;
+    margin-top: 100px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.card h4{
+    margin-bottom: 5px;
+}
+
+.card img{
+    width: 100%;
+    height: 100px;
+}
+
+button{
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid cyan;
+    color: cyan;
+    padding: 8px 16px 8px 16px;
+}
+.justify{
+
+    /* background-color: brown; */
+
+    max-width: 100%;
+    height: 10vh;
+
+   text-align: center;
+}
+
+.footer{
+    max-width: 100%;
+    height: 8vh;
+    background-color: cyan;
+}
+
+.footer li{
+    display: inline-block;
+    margin-top: 1%;
+    color: white;
+}
+
+.footer ul{
+    margin-left: 10%;
+    
+}
+
+@media only screen and (max-width:1100px){
+
+    button{
+        margin-top: 15px;
+        padding: 4px 10px 4px 10px;
+    }
+
+    .footer li{
+        display: inline-block;
+        margin-top: 1.5%;
+        color: white;
+        font-size: 10px;
+    }
+
+    .footer{
+        height: 6vh;
+    }
+
+    .card h4{
+      font-size: 11px; 
+      margin-bottom: 4px; 
+    }
+
+    .card h6{
+        font-size: 6px;
+    }
+    .card img{
+        width: 100%;
+        height: 50px;
+    }
+    .card{
+        margin-top: 30px;
+        height: 80px;
+    }
+
+    .cards{
+        height: 20vh;
+    }
+
+    .listDiv ul li{
+        
+        text-decoration: none;
+        margin-top: 1.5vh;
+        margin-left: 5px;
+        font-size: 10px;
+        
+    }
+    .layer{
+        height: 30vh;
+    }
+    
+    .layer1 img{
+        position: relative;
+        top: -35%;
+    }
+    .layer2{
+        position: relative;
+        top: -15%;
+        font-size: 7px;
+        font-family: sans-serif;
+    }
+
+    
+    .navContainer {
+        font-size: 8px;
+        /* background-color: red; */
+        height: 5vh;
+    }
+
+    .lastH h3{
+        font-size: 10px;
+    }
+
+    nav img{
+        /* margin-top:  2%; */
+        max-width: 15vw;
+        height: 1.5vh;
+        padding: 1%;
+    }
+
+    nav{
+        max-width: 100%;
+        height: 5vh;
+        /* background-color: grey; */
+        box-shadow: 0px 0px 4px 0px grey;
+    }
+
+    nav li{
+    
+        margin-right: 3%;
+        margin-top: 4%;
+    }
+
+    .ibodyy h1{
+        font-size: 20px;;
+    }
+    .vvv h1{
+        font-size: 15px;
+    }
+    
+    .vvv{
+        height: 70px;
+        width: 40%;
+        /* background-color: blue; */
+        position: relative;
+        top: 50px;
+        left: 10%;
+    }
+
+    .vvv p{
+        font-size: 7px;
+    }
+    .flexx{
+        height: 25vh;
+    }
+}
+
